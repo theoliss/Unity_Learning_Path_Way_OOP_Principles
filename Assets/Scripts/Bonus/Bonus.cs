@@ -4,6 +4,12 @@ using UnityEngine;
 
 public abstract class Bonus : MonoBehaviour
 {
+
+    //INERHENCE 
+    //and 
+    //POLYMORPHISM
+    //see also Jump_Bonus and Speed_Bonus
+    
     protected abstract void Bonus_Effect(PlayerController other);
     protected abstract void Handle_Destroy();
 

@@ -12,6 +12,8 @@ public class BonusSpawnManager : MonoBehaviour
     private float Z_boundary;
 
     private int m_numberOfBonusOnScene;
+
+    //ENCAPSULATION
     public int numberOfBonusOnScene
     {
         get {return m_numberOfBonusOnScene;}
